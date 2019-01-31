@@ -1,0 +1,12 @@
+@import "vars";
+
+.md,
+  .ios {
+    .navbar {
+    background-color: $magenta;
+  }
+
+  .page {
+    background: $background;
+  }
+}
