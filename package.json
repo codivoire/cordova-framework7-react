@@ -14,12 +14,13 @@
   "author": {
     "name": "Roland Edi",
     "email": "lambirou225@gmail.com",
-    "url": "https://about.io/lambirou"
+    "url": "https://about.me/lambirou"
   },
   "private": true,
   "main": "./src/main.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development",
+    "start": "npm run dev",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
   "devDependencies": {

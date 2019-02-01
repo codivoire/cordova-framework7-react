@@ -28,8 +28,8 @@ Features
 
 Step 1: Clone this repo
 ```
-git clone https://github.com/lambirou/cordova-ionicnative-framework7-react-redux.git
-cd cordova-ionicnative-framework7-react-redux
+git clone https://github.com/lambirou/cordova-ionicnative-framework7-react-redux.git my-app
+cd my-app
 ```
 
 Step 2: Install
@@ -61,6 +61,15 @@ $ npm run build     # build a minified production version
 We welcome anyone to send us __pull request__ to improve this boilerplate, the goal is to make it better from time to time and we all can learn from it.
 
 This boilerplate will be maintained separately.  So please do not check in any business logic to it unless it is for example purpose.
+
+## Maintainers
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+| [<img src="https://avatars3.githubusercontent.com/u/1428556?s=460&v=4" width="100px;"/><br /><sub><b>lambirou</b></sub>](https://github.com/lambirou)<br /> |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------: |
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
 ## License
