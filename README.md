@@ -1,4 +1,14 @@
+[![Build Status](https://travis-ci.org/lambirou/cordova-ionicnative-framework7-react-redux.svg?branch=master)](https://travis-ci.org/lambirou/cordova-ionicnative-framework7-react-redux)
+[![dependencies Status](https://david-dm.org/lambirou/cordova-ionicnative-framework7-react-redux/status.svg)](https://david-dm.org/lambirou/cordova-ionicnative-framework7-react-redux)
+[![devDependencies Status](https://david-dm.org/lambirou/cordova-ionicnative-framework7-react-redux/dev-status.svg)](https://david-dm.org/lambirou/cordova-ionicnative-framework7-react-redux?type=dev)
+[![Gitter][chat-img]][chat]
+
+[chat-img]: https://img.shields.io/badge/Chat-on_gitter-teal.svg
+[chat]:     https://gitter.im/lambirou-cordova-ionicnative-framework7-react-redux/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+
+
 # Modern Hybrid App Boilerplate
+
 
 ### Preface
 
@@ -15,13 +25,13 @@ Features
 * Framework7 v3.6.5
 * React v16.7
 * Redux
-* ES6 / ES7
 * ImmutableJS
-* PostCSS ( with CSS modules activated by default )
 * Reselect
 * Webpack 4
 * Cordova
 * Ionic Native 5
+* ES6 / ES7
+* SASS / SCSS
 
 
 ## Installation
@@ -66,7 +76,7 @@ This boilerplate will be maintained separately.  So please do not check in any b
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 
-| [<img src="https://avatars3.githubusercontent.com/u/1428556?s=460&v=4" width="100px;"/><br /><sub><b>lambirou</b></sub>](https://github.com/lambirou)<br /> |
+| [<img src="https://avatars3.githubusercontent.com/u/1428556?s=460&v=4" width="100px;"/><br /><sub><b>Roland Edi</b></sub>](https://github.com/lambirou)<br /> |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
