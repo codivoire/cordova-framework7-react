@@ -19,17 +19,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: [{
-          loader: "babel-loader",
-          options: {
-            cacheDirectory: true,
-            plugins: [
-              'transform-runtime',
-              'transform-decorators-legacy',
-              'syntax-dynamic-import'
-            ],
-          }
-        }],
+        use: ["babel-loader"],
         exclude: [/node_modules/]
       },
       {
