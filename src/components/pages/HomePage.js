@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
 import { Page, Navbar, BlockTitle, Block, List, ListItem } from 'framework7-react';
 
+import Platform from '../../utils/Platform';
+
 export default class HomePage extends Component {
   constructor(props) {
     super(props);
+
+    console.log(Platform.isLandscape());
+
+    Platform.ready(event => {
+      console.log(Platform.is("mobile"));
+      console.log(Platform.is("cordova"));
+    });
   }
 
   render() {
