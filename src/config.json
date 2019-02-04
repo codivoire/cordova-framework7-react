@@ -1,5 +1,5 @@
 {
-    "name": "Babilade",
-    "version": "0.1.0",
-    "appId": "ci.codivoire.babilade"
+  "name": "Hybrid App",
+  "version": "1.0.0",
+  "appId": "com.hybrid.app"
 }

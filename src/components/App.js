@@ -1,17 +1,16 @@
-import React from 'react';
-import { App, View, Statusbar } from 'framework7-react';
+import React from "react";
+import { App, View, Statusbar } from "framework7-react";
 
-import { name, appId } from '../config';
-import routes from '../routes';
+import { name, appId } from "../config";
+import routes from "../routes";
 
-export default function (props) {
-
+export default function(props) {
   // Framework7 parameters here
   const f7params = {
     id: appId,
     name: name,
-    theme: 'auto',
-    routes,
+    theme: "auto",
+    routes
   };
 
   return (
@@ -20,4 +19,4 @@ export default function (props) {
       <View id="main-view" url="/" main className="ios-edges" />
     </App>
   );
-};
+}

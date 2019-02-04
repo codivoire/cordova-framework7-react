@@ -1,12 +1,13 @@
 @import "vars";
-
+@import "icons/f7-icons";
+@import "icons/material-icons";
+@import "icons/ionicons";
 .md,
-  .ios {
+.ios {
     .navbar {
-    background-color: $magenta;
-
-    .title {
-      color: $white;
+        background-color: $magenta;
+        .title {
+            color: $white;
+        }
     }
-  }
 }
