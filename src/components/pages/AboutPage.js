@@ -1,9 +1,18 @@
 import React, { Component } from "react";
 import { Page, Navbar, BlockTitle, Block } from "framework7-react";
 
+import RegisterBackButtonAction from "../../services/RegisterBackButtonAction";
+
 export default class AboutPage extends Component {
   constructor(props) {
     super(props);
+
+    console.log(this.$f7router);
+  }
+
+  componentDidMount() {
+    // handle back button
+    RegisterBackButtonAction(this.$f7router);
   }
 
   render() {

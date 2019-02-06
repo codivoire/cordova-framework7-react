@@ -6,24 +6,42 @@ import {
   Block,
   List,
   ListItem,
-  Icon
+  Icon,
+  NavLeft,
+  NavRight,
+  NavTitle,
+  Link
 } from "framework7-react";
 
-import Platform from "../../utils/Platform";
+import RegisterBackButtonAction from "../../services/RegisterBackButtonAction";
+import { name } from "../../config";
 
 export default class HomePage extends Component {
   constructor(props) {
     super(props);
+  }
 
-    Platform.ready(event => {
-      console.log(Platform.is("cordova"));
-    });
+  componentDidMount() {
+    // handle back button
+    RegisterBackButtonAction(this.$f7router);
   }
 
   render() {
     return (
       <Page>
-        <Navbar title="Babilade" />
+        <Navbar>
+          <NavLeft>
+            <Link panelOpen="left">
+              <Icon ion="ios-menu" />
+            </Link>
+          </NavLeft>
+          <NavTitle>{name}</NavTitle>
+          <NavRight>
+            <Link href="/about/">
+              <Icon ion="md-more" />
+            </Link>
+          </NavRight>
+        </Navbar>
         <BlockTitle>Welcome to My App</BlockTitle>
         <Block strong>
           <p>
@@ -32,8 +50,6 @@ export default class HomePage extends Component {
             pretium. Nulla mauris mauris, consequat et elementum sit amet,
             egestas sed orci. In hac habitasse platea dictumst.
           </p>
-          <Icon material="home" />
-          <Icon ion="ios-home" />
         </Block>
         <BlockTitle>Navigation</BlockTitle>
         <List>

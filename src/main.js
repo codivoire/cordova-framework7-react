@@ -21,4 +21,4 @@ import App from "./components/App";
 Framework7.use(Framework7React);
 
 // Mount React App
-ReactDOM.render(React.createElement(App), document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("app"));

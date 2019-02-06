@@ -6,7 +6,8 @@
 .ios {
     .navbar {
         background-color: $magenta;
-        .title {
+        color: $white;
+        a {
             color: $white;
         }
     }
