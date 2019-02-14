@@ -38,7 +38,7 @@ Features
 Step 1: Clone this repo
 
 ```
-git clone https://github.com/lambirou/cordova-ionicnative-framework7-react-redux.git my-app
+git clone https://github.com/lambirou/cordova-framework7-react.git my-app
 cd my-app
 ```
 
