@@ -25,13 +25,11 @@ If you are interested in working with us, feel free to send a message to [lambir
 Features
 
 - Framework7 v4.0.5
-- React v16.7
+- React v16.8
 - Redux
-- ImmutableJS
-- Reselect
-- Webpack 4
+- Webpack v4
 - Cordova
-- Ionic Native 5
+- Ionic Native v5
 - ES6 / ES7
 - SASS / SCSS
 
@@ -64,6 +62,18 @@ And Done, as easy as 123!!
 $ npm run dev       # build and watch, but javascript and css not minified
 $ npm run build     # build a minified production version
 ```
+
+### List of Cordova Commands
+
+```sh
+$ cordova platform add ios      # add android ios to your project
+$ cordova platform add android    # add android platform to your project
+
+$ cordova run ios # launch the app on iOS device or emulator
+$ cordova run android # launch the app on Android device or emulator
+```
+
+After that, all Cordova commands can be used.
 
 ## How to Contribute
 

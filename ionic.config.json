@@ -1,7 +1,0 @@
-{
-  "name": "hybrid-app",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "custom"
-}
