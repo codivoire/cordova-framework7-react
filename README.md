@@ -1,10 +1,10 @@
-[![Build Status](https://travis-ci.org/lambirou/cordova-ionicnative-framework7-react-redux.svg?branch=master)](https://travis-ci.org/lambirou/cordova-ionicnative-framework7-react-redux)
-[![dependencies Status](https://david-dm.org/lambirou/cordova-ionicnative-framework7-react-redux/status.svg)](https://david-dm.org/lambirou/cordova-ionicnative-framework7-react-redux)
-[![devDependencies Status](https://david-dm.org/lambirou/cordova-ionicnative-framework7-react-redux/dev-status.svg)](https://david-dm.org/lambirou/cordova-ionicnative-framework7-react-redux?type=dev)
+[![Build Status](https://travis-ci.org/lambirou/cordova-framework7-react.svg?branch=master)](https://travis-ci.org/lambirou/cordova-framework7-react)
+[![dependencies Status](https://david-dm.org/lambirou/cordova-framework7-react/status.svg)](https://david-dm.org/lambirou/cordova-framework7-react)
+[![devDependencies Status](https://david-dm.org/lambirou/cordova-framework7-react/dev-status.svg)](https://david-dm.org/lambirou/cordova-framework7-react?type=dev)
 [![Gitter][chat-img]][chat]
 
 [chat-img]: https://img.shields.io/badge/Chat-on_gitter-teal.svg
-[chat]: https://gitter.im/lambirou-cordova-ionicnative-framework7-react-redux/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+[chat]: https://gitter.im/lambirou-cordova-framework7-react/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 
 <br>
 
