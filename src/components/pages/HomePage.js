@@ -12,18 +12,36 @@ import {
   NavTitle,
   Link
 } from "framework7-react";
+import { Dialogs } from "@ionic-native/dialogs";
 
-import RegisterBackButtonAction from "../../services/RegisterBackButtonAction";
+import Platform from "../../services/Platform";
 import { name } from "../../config";
 
 export default class HomePage extends Component {
   constructor(props) {
     super(props);
+
+    this.platform = Platform;
+    this.dialogs = Dialogs;
   }
 
   componentDidMount() {
-    // handle back button
-    RegisterBackButtonAction(this.$f7router);
+    this.platform.registerBackButtonAction(event => {
+      event.preventDefault();
+
+      this.dialogs
+        .confirm("Do you want to close the application ?", name, [
+          "Close",
+          "No"
+        ])
+        .then(index => {
+          if (index === 1) {
+            this.platform.exitApp();
+          }
+        });
+
+      return false;
+    }, 101);
   }
 
   render() {

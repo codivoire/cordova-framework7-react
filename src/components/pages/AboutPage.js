@@ -6,8 +6,6 @@ import RegisterBackButtonAction from "../../services/RegisterBackButtonAction";
 export default class AboutPage extends Component {
   constructor(props) {
     super(props);
-
-    console.log(this.$f7router);
   }
 
   componentDidMount() {

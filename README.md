@@ -24,7 +24,7 @@ If you are interested in working with us, feel free to send a message to [lambir
 
 Features
 
-- Framework7 v3.6.5
+- Framework7 v4.0.5
 - React v16.7
 - Redux
 - ImmutableJS

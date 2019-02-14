@@ -9,7 +9,7 @@ import Framework7 from "framework7/framework7.esm.bundle";
 import Framework7React from "framework7-react";
 
 // Framework7 styles
-import "framework7/css/framework7.min.css";
+import "framework7/css/framework7.bundle.min.css";
 
 // styles
 import "./styles/bundle";
