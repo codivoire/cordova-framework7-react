@@ -1,4 +1,11 @@
 {
   "esversion": 6,
-  "expr": true
+  "expr": true,
+  "node": true,
+  "curly": true,
+  "latedef": true,
+  "quotmark": true,
+  "undef": true,
+  "unused": true,
+  "trailing": true
 }

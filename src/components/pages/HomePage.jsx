@@ -15,7 +15,7 @@ import {
 import { Dialogs } from "@ionic-native/dialogs";
 
 import Platform from "../../services/Platform";
-import { name } from "../../config";
+import * as config from "../../config";
 
 export default class HomePage extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ export default class HomePage extends Component {
       event.preventDefault();
 
       this.dialogs
-        .confirm("Do you want to close the application ?", name, [
+        .confirm("Do you want to close the application ?", config.name, [
           "Close",
           "No"
         ])
@@ -53,7 +53,7 @@ export default class HomePage extends Component {
               <Icon ion="ios-menu" />
             </Link>
           </NavLeft>
-          <NavTitle>{name}</NavTitle>
+          <NavTitle>{config.name}</NavTitle>
           <NavRight>
             <Link href="/about/">
               <Icon ion="md-more" />

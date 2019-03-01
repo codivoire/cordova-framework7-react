@@ -6,26 +6,24 @@ const cssnano = require("cssnano");
 const devMode = process.env.NODE_ENV !== "production";
 
 module.exports = {
-  entry: "./src/main.js",
+  entry: "./src/main.jsx",
   output: {
     path: path.resolve(__dirname, "../www"),
     publicPath: "/",
     filename: "bundle.js"
   },
   resolve: {
-    extensions: [".js", ".json", ".scss"]
+    extensions: [".jsx", ".js", ".json", ".scss"]
   },
   module: {
-    rules: [
-      {
-        test: /\.js$/,
+    rules: [{
+        test: /\.(jsx|js)$/,
         use: ["babel-loader"],
         exclude: [/node_modules/]
       },
       {
         test: /\.scss$/,
-        use: [
-          {
+        use: [{
             loader: devMode ? "style-loader" : MiniCssExtractPlugin.loader
           },
           {
@@ -91,15 +89,12 @@ module.exports = {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV)
       }
     }),
-    new BrowserSyncPlugin(
-      {
-        host: "localhost",
-        port: 3000,
-        proxy: "http://localhost:8080/"
-      },
-      {
-        reload: false
-      }
-    )
+    new BrowserSyncPlugin({
+      host: "localhost",
+      port: 3000,
+      proxy: "http://localhost:8080/"
+    }, {
+      reload: false
+    })
   ]
 };

@@ -17,7 +17,7 @@
     "url": "https://about.me/lambirou"
   },
   "private": true,
-  "main": "./src/main.js",
+  "main": "./src/main.jsx",
   "scripts": {
     "start": "npm run dev",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development",
@@ -33,6 +33,9 @@
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.0",
     "cssnano": "^4.1.8",
+    "eslint": "^5.14.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-mocha": "^5.3.0",
     "file-loader": "^3.0.1",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
@@ -48,12 +51,12 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "@ionic-native/core": "^5.0.0",
-    "@ionic-native/device": "^5.0.0",
-    "@ionic-native/dialogs": "^5.0.0",
-    "@ionic-native/screen-orientation": "^5.0.0",
-    "@ionic-native/splash-screen": "^5.0.0",
-    "@ionic-native/status-bar": "^5.0.0",
+    "@ionic-native/core": "^5.2.0",
+    "@ionic-native/device": "^5.2.0",
+    "@ionic-native/dialogs": "^5.2.0",
+    "@ionic-native/screen-orientation": "^5.2.0",
+    "@ionic-native/splash-screen": "^5.2.0",
+    "@ionic-native/status-bar": "^5.2.0",
     "cordova-android": "7.1.4",
     "cordova-ios": "4.5.5",
     "cordova-plugin-device": "^2.0.2",
@@ -65,11 +68,12 @@
     "cordova-plugin-statusbar": "^2.4.2",
     "cordova-plugin-whitelist": "^1.3.3",
     "es6-promise-plugin": "^4.2.2",
-    "framework7": "^4.0.5",
-    "framework7-react": "^4.0.5",
+    "framework7": "^4.0.6",
+    "framework7-react": "^4.0.6",
     "prop-types": "^15.7.2",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "rxjs": "^6.4.0"
   },
   "cordova": {
     "plugins": {

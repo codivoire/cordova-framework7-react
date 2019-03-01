@@ -4,10 +4,10 @@ import { ScreenOrientation } from "@ionic-native/screen-orientation";
 import { StatusBar } from "@ionic-native/status-bar";
 import { SplashScreen } from "@ionic-native/splash-screen";
 
+import SideNav from "./modals/SideNav";
 import Platform from "../services/Platform";
 import routes from "../routes";
-import { name, version, appId } from "../config";
-import SideNav from "./modals/SideNav";
+import * as config from "../config";
 
 export default class App extends Component {
   constructor(props) {
@@ -26,7 +26,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    this.platform.ready(event => {
+    this.platform.ready(() => {
       // hide splash screen
       this.splashScreen.hide();
 
@@ -47,9 +47,9 @@ export default class App extends Component {
 
   render() {
     const f7params = {
-      id: appId,
-      name: name,
-      version: version,
+      id: config.appId,
+      name: config.name,
+      version: config.version,
       theme: "auto",
       touch: {
         disableContextMenu: false
