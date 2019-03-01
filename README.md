@@ -14,7 +14,7 @@
 
 ### Preface
 
-This is a full fledged **PRODUCTION READY** workflow boilerplate for building rapid and complex application.
+This is a full fledged **PRODUCTION READY** workflow boilerplate for building rapid and beautiful application.
 
 The technologies used in this workflow boilerplate shows case a `subset of technologies` we are currently using within our team ( **we put this project in github mainly as recruiting purpose for our team** ), and we are trying to give our candidates confidence that by working with us, they will be using decent technologies as well as staying relevant to the industry. And that is what our team strongly believed in - **technology innovation and promoting developers' relevancy in the industry**.
 
