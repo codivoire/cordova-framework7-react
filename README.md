@@ -24,8 +24,8 @@ If you are interested in working with us, feel free to send a message to [lambir
 
 Features
 
-- Framework7 v4.0.5
-- React v16.8
+- Framework7 v4
+- React v16
 - Redux
 - Webpack v4
 - Cordova
